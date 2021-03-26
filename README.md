@@ -191,7 +191,7 @@ Run a single test suite without a coverage report.
 $ npx jest test/capture.test.js
 ```
 
-If you want to run tests using your Moncash '<clientId> <clientSecret>' pairs.
+If you want to run tests using your Moncash `clientId` `clientSecret` pairs.
 
 ```bash
 $ export MONCASH_CLIENT_ID='<clientId>'
