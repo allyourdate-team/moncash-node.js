@@ -1,0 +1,12 @@
+sudo: false
+language: node_js
+node_js:
+- 'lts/*'
+branches:
+  only:
+  - master
+install:
+- npm install
+script:
+- npm test
+- npm run coveralls
