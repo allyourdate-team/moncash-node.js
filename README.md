@@ -12,7 +12,7 @@ Digicel MonCash - MonCash is a mobile wallet that facilitates reliable, safe and
 ## Features
 - Create payment
 - Capture payment
-- Transfert money
+- ~~Transfert money~~
 
 ## Installation
 Moncash requires [Node.js](https://nodejs.org/) v10+ to run.
@@ -47,7 +47,7 @@ moncash.configure({
 });
 ```
 ## Create Payment
-==The only supported currency is 'HTG'.==
+The only supported currency is 'HTG'.
 _With the configue above._
 ```javascript
 moncash.payment.create({
@@ -129,8 +129,8 @@ moncash.capture.getByTransactionId('<transactionId>',(err,capture)=>{
 });
 ```
 
-## `Tranfert money`
-==The only supported currency is 'HTG'.==
+## ~~Tranfert money~~
+The only supported currency is 'HTG'.
 _`In test for now.`_
 ```javascript
 moncash.transfert.create({
@@ -147,7 +147,7 @@ moncash.transfert.create({
 ```
 
 ## Error handling
-List of errors in ==Moncash.errors.==
+List of errors in Moncash.errors.
 ```javascript
 const errors = Moncash.errors;
 
