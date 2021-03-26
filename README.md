@@ -26,7 +26,7 @@ npm install --save moncash
 
 ## Configuring the client
 Digicel Moncash API [Dashboard](https://sandbox.moncashbutton.digicelgroup.com/Moncash-business/Login).
-_Each business has it's own '<clientId>:<clientSecret>' pairs._
+_Each business has it's own `clientId` `clientSecret` pairs._
 ```javascript
 const Moncash = require('moncash');
 
@@ -194,8 +194,8 @@ $ npx jest test/capture.test.js
 If you want to run tests using your Moncash `clientId` `clientSecret` pairs.
 
 ```bash
-$ export MONCASH_CLIENT_ID='<clientId>'
-$ export MONCASH_CLIENT_SECRET='<clientSecret>'
+$ export MONCASH_TEST_CLIENT_ID='<clientId>'
+$ export MONCASH_TEST_CLIENT_SECRET='<clientSecret>'
 $ npm test
 ```
 
