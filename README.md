@@ -156,7 +156,7 @@ switch (err.type) {
         console.log(err.description);
         break;
     case errors.UnauthorizedError:
-        console.log("Verify your '<clientId>:<clientSecret>' pairs");
+        console.log("Verify your '<clientId>':'<clientSecret>' pairs");
         break;
     default:
         console.log('An error occured')
