@@ -1,0 +1,26 @@
+{
+  "name": "moncash",
+  "version": "0.0.1",
+  "description": "nodejs moncash API wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest --coverage --testTimeout 100000"
+  },
+  "keywords": [
+    "moncash",
+    "digicel",
+    "API",
+    "payment processing"
+  ],
+  "author": "Freedy Meritus <freedy@allyourdate.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "jest":{
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
