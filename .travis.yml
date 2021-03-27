@@ -15,6 +15,5 @@ jobs:
         on:
           branch: main
         provider: script
-        cleanup: false
         script:
           - npm run semantic-release
