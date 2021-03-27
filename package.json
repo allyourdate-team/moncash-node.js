@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "nodejs moncash API wrapper",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "jest --coverage --testTimeout 100000",
     "coveralls":"coveralls < coverage/lcov.info"
