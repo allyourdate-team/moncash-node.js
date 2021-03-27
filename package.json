@@ -17,7 +17,7 @@
     "payment processing"
   ],
   "author": "Freedy Meritus <freedy@allyourdate.com>",
-  "license": "MIT",
+  "license": "GNU GENERAL PUBLIC LICENSE",
   "dependencies": {
     "axios": "^0.21.1"
   },
