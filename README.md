@@ -3,7 +3,7 @@
 # Digicel Moncash API SDK for Node.js
 _Inspired by [stripe](https://github.com/stripe/stripe-node) SDK for Node.js_
 
-[![Build Status](https://travis-ci.com/allyourdate-team/moncash-node.js.svg?branch=main)](https://travis-ci.com/allyourdate-team/moncash-node.js) [![Coverage Status](https://coveralls.io/repos/github/allyourdate-team/moncash-node.js/badge.svg?branch=main)](https://coveralls.io/github/allyourdate-team/moncash-node.js?branch=main) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+[![Build Status](https://travis-ci.com/allyourdate-team/moncash-node.js.svg?branch=main)](https://travis-ci.com/allyourdate-team/moncash-node.js) [![Coverage Status](https://coveralls.io/repos/github/allyourdate-team/moncash-node.js/badge.svg?branch=main)](https://coveralls.io/github/allyourdate-team/moncash-node.js?branch=main) 
 
 Digicel MonCash - MonCash is a mobile wallet that facilitates reliable, safe and convenient financial transactions to reduce the distance between people regardless of their location in Haiti. While providing its services to its customer base of over 1.5 million people, MonCash maintains its goal of expanding its range of available services.
 
