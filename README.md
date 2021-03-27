@@ -204,6 +204,7 @@ $ npm test
 _Version 3, 29 June 2007_
 
 ## Useful links
+- [NPM package link](https://www.npmjs.com/package/moncash)
 - [Digicel Moncash API Dashboard](https://sandbox.moncashbutton.digicelgroup.com)
 - [RestAPI_MonCash_doc.pdf](https://sandbox.moncashbutton.digicelgroup.com/Moncash-business/resources/doc/RestAPI_MonCash_doc.pdf)
 - [Old Moncash SDK for Node.js](https://github.com/ecelestin/ecelestin-Moncash-sdk-nodejs)
