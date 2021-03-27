@@ -12,6 +12,7 @@ jobs:
     - stage: release
       node_js: lts/*
       deploy:
+        skip_cleanup: true
         on:
           branch: main
         provider: script
