@@ -1,4 +1,3 @@
-sudo: true
 language: node_js
 node_js:
 - '12'
@@ -7,14 +6,11 @@ install:
 script:
 - npm test
 - npm run coveralls
-jobs:
-  include:
-    - stage: release
-      node_js: lts/*
-      deploy:
-        skip_cleanup: true
-        on:
-          branch: main
-        provider: script
-        script:
-          - npm run semantic-release
+deploy:
+  provider: npm
+  email: "$NPM_EMAIL"
+  api_key: "$NPM_TOKEN"
+  skip_cleanup: true
+  on:
+    tags: true
+    branch: main
