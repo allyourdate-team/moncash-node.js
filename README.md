@@ -17,7 +17,7 @@ Digicel MonCash - MonCash is a mobile wallet that facilitates reliable, safe and
 - ~~Transfert money~~
 
 ## Installation
-Moncash requires [Node.js](https://nodejs.org/) v10+ to run.
+Moncash requires [Node.js](https://nodejs.org/) v12+ to run.
 _Install the the SDK and start using it._
 
 ```sh
