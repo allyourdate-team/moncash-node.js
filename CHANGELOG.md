@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.6](https://github.com/allyourdate-team/moncash-node.js/compare/v0.1.5...v0.1.6) (2024-04-03)
+
+
+### Bug Fixes
+
+* **package-lock:** update ([dd5664c](https://github.com/allyourdate-team/moncash-node.js/commit/dd5664c3203f5ca20a3d411731d16903a4e7bcec))
+* **package*:** update dependencies ([b2254a2](https://github.com/allyourdate-team/moncash-node.js/commit/b2254a224cbe12f2bcd29a78fa85e8f3ef3f17fb))
+
 ### [0.1.5](https://github.com/allyourdate-team/moncash-node.js/compare/v0.1.4...v0.1.5) (2021-03-27)
 
 ### [0.1.4](https://github.com/allyourdate-team/moncash-node.js/compare/v0.1.2...v0.1.4) (2021-03-27)
