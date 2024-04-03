@@ -18,7 +18,7 @@
     "API",
     "payment processing"
   ],
-  "author": "Freedy Meritus <freedy@allyourdate.com>",
+  "author": "Freedy Meritus <meritusfreedy@gmail.com>",
   "license": "GPL-3.0 License",
   "dependencies": {
     "axios": "^1.6.8"
